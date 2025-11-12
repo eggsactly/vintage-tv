@@ -1,5 +1,5 @@
 import(parameters.scad);
-scale([scalefactor, scalefactor, scalefactor])
+scale([scalefactorX, scalefactorY, scalefactorZ])
 {
 	import("back_insert.stl");
 }
